@@ -1,3 +1,5 @@
+// Time O(n) | Space O(1)
+
 // create function to return increasing or decreasing
 // depending on the score
 const identifyTitles = (scores) => {
@@ -21,7 +23,7 @@ const identifyTitles = (scores) => {
 let movieRatings = [
 	[1, 2, 2, 3],
 	[4, 5, 6, 3, 4],
-	[8, 8, 7, 6, 5, 4, 4, 1],
+	[8, 8, 9, 4, 5, 6, 3, 4],
 ];
 
 // go through the data
